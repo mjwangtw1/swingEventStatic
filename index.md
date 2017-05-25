@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Swing Events Taipei : Static
 
 You can use the [editor on GitHub](https://github.com/mjwangtw1/swingEventStatic/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
