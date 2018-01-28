@@ -13,9 +13,9 @@ options:
   max-warnings: 50
 # File Options
 files:
-  include: 'sass/**/*.s+(a|c)ss'
+  include: 'scss/**/*.s+(a|c)ss'
   ignore:
-    - 'sass/vendor/**/*.*'
+    - 'scss/vendor/**/*.*'
 # Rule Configuration
 rules:
   extends-before-mixins: 2
