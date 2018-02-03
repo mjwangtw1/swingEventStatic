@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Heebo:400,700");
 @import url("https://fonts.googleapis.com/css?family=Spectral:500,600");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif:400,700");
 @import url("https://fonts.googleapis.com/css?family=Sacramento");
 /** Foundation for Sites by ZURB Version 6.4.3 foundation.zurb.com Licensed under MIT Open Source */
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
@@ -158,7 +159,7 @@ html { box-sizing: border-box; font-size: 100%; }
 
 *, *::before, *::after { box-sizing: inherit; }
 
-body { margin: 0; padding: 0; background: #fcecc9; font-family: "Heebo", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-weight: normal; line-height: 1.5; color: #030027; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { margin: 0; padding: 0; background: #E8E3E0; font-family: "Heebo", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-weight: normal; line-height: 1.5; color: #2D2B55; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 img { display: inline-block; vertical-align: middle; max-width: 100%; height: auto; -ms-interpolation-mode: bicubic; }
 
@@ -654,8 +655,22 @@ ul.no-bullet, ol.no-bullet { margin-left: 0; list-style: none; }
   .large-flex-dir-column { flex-direction: column; }
   .large-flex-dir-column-reverse { flex-direction: column-reverse; } }
 
-.swingTitleName { text-align: center; color: #151e3f; font-family: 'Sacramento', serif; font-size: 2.25rem; }
+.swingTitleName { text-align: center; color: #151e3f; font-family: 'Sacramento', serif; font-size: 2.5rem; }
 
 @media print, screen and (min-width: 40em) { .swingTitleName { text-align: left; } }
 
 .swingTitle { margin-top: 12px; }
+
+.featureEventName { color: #2D2B55; font-weight: 700; }
+
+.featureEventTime, .featureEventPlace { margin-bottom: 0; color: #f05d5e; }
+
+.featureEventTimeIs, .featureEventPlaceIs { color: #30343f; }
+
+.featureEventDescription { color: #30343f; font-family: 'Spectral', 'Noto Sans TC', 'Source Han Serif TC', '思源宋體', serif; font-weight: 500; }
+
+.footerInfo { color: #868489; font-family: 'Spectral', serif; font-size: .875rem; }
+
+.footerCredit { text-align: center; }
+
+@media print, screen and (min-width: 40em) { .footerCredit { text-align: right; } }

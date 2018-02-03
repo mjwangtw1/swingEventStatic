@@ -1,0 +1,43 @@
+.featureEventName
+{
+  color: $spacecadet;
+  font-weight: 700;
+}
+
+%featureEventMetaTitle
+{
+  margin-bottom: 0;
+  color: $sunsetorange;
+}
+
+%featureEventMetaValue
+{
+  color: $gunmetal;
+}
+
+.featureEventTime
+{
+  @extend %featureEventMetaTitle;
+}
+
+.featureEventPlace
+{
+  @extend %featureEventMetaTitle;
+}
+
+.featureEventTimeIs
+{
+  @extend %featureEventMetaValue;
+}
+
+.featureEventPlaceIs
+{
+  @extend %featureEventMetaValue;
+}
+
+.featureEventDescription
+{
+  color: $gunmetal;
+  font-family: 'Spectral', 'Noto Sans TC', 'Source Han Serif TC', '思源宋體', serif;
+  font-weight: 500;
+}

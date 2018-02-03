@@ -1,10 +1,12 @@
-.swingTitleName {
+.swingTitleName 
+{
   text-align: center;
   color: $yk-blue;
   font-family: 'Sacramento', serif;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
 
-  @include breakpoint(medium) {
+  @include breakpoint(medium) 
+  {
     text-align: left;
   }
 }
