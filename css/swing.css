@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Heebo:400,700");
 @import url("https://fonts.googleapis.com/css?family=Spectral:500,600");
 @import url("https://fonts.googleapis.com/css?family=Noto+Serif:400,700");
-@import url("https://fonts.googleapis.com/css?family=Sacramento");
+@import url("https://fonts.googleapis.com/css?family=Sriracha");
+@font-face { font-family: 'Cheque Regular'; src: url("../assets/fonts/cheque-regular-webfont.woff2") format("woff2"), url("../assets/fonts/cheque-regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+
 /** Foundation for Sites by ZURB Version 6.4.3 foundation.zurb.com Licensed under MIT Open Source */
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document ========================================================================== */
@@ -655,7 +657,7 @@ ul.no-bullet, ol.no-bullet { margin-left: 0; list-style: none; }
   .large-flex-dir-column { flex-direction: column; }
   .large-flex-dir-column-reverse { flex-direction: column-reverse; } }
 
-.swingTitleName { text-align: center; color: #151e3f; font-family: 'Sacramento', serif; font-size: 2.5rem; }
+.swingTitleName { text-align: center; color: #151e3f; font-family: 'Cheque Regular', serif; font-size: 2.75rem; }
 
 @media print, screen and (min-width: 40em) { .swingTitleName { text-align: left; } }
 
