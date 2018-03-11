@@ -1,0 +1,11 @@
+.swingSidebar {
+  padding-top: 10px;
+  color: $isabelline;
+  background-color: $spacecadet;
+
+  @include breakpoint(medium) {
+    padding-top: 0;
+    color: $spacecadet;
+    background-color: transparent;
+  }
+}
