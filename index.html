@@ -66,81 +66,81 @@
     </div>
   </footer>
   <script src="js/vendor/jquery/dist/jquery.min.js"></script>
-  <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+  <script type="text/javascript" src="https://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
 
   <!-- Regular Events-->
   <script type="text/x-jquery-tmpl" id="template_items">
-          <li class="mentionEventListItem">
-            <h6 class="mentionEventName">
-              ${summary}
-            </h6>
-            <p class="mentionEventContent">
-                ${description}
-            </p>
-            <ul class="mentionEventMeta">
-              <li class="mentionEventWhen">
-                <i class="fal fa-calendar"></i>&nbsp;
-                <span class="mentionEventDateIs">${start.datetime}</span>
-                <span class="mentionEventTimeIs">19:00</span>
-              </li>
-              <li class="mentionEventPlace">
-                <i class="fal fa-map-marker"></i>&nbsp;
-                <span class="mentionEventPlaceIs">${location}</span>
-              </li>
-              <li class="mentionEventFee">
-                <i class="fal fa-usd-circle"></i>&nbsp;
-                <span class="mentioneatureEventFeeIs">NTD 500</span>
-              </li>
-            </ul>
-          </li>
+    <li class="mentionEventListItem">
+      <h6 class="mentionEventName">
+        ${summary}
+      </h6>
+      <p class="mentionEventContent">
+          ${description}
+      </p>
+      <ul class="mentionEventMeta">
+        <li class="mentionEventWhen">
+          <i class="fal fa-calendar"></i>&nbsp;
+          <span class="mentionEventDateIs">${start.datetime}</span>
+          <span class="mentionEventTimeIs">19:00</span>
+        </li>
+        <li class="mentionEventPlace">
+          <i class="fal fa-map-marker"></i>&nbsp;
+          <span class="mentionEventPlaceIs">${location}</span>
+        </li>
+        <li class="mentionEventFee">
+          <i class="fal fa-usd-circle"></i>&nbsp;
+          <span class="mentioneatureEventFeeIs">NTD 500</span>
+        </li>
+      </ul>
+    </li>
   </script>
 
   <!--Hit Event: only show 1 -->
   <script type="text/x-jquery-tmpl" id="template_hot">
-  <h4 class="featureEventName">
-        ${summary}
-      </h4>
-      <p class="featureEventContent">
-        ${description}
-      </p>
-      <ul class="featureEventMeta">
-        <li class="featureEventWhen">
-          <i class="far fa-calendar"></i>&nbsp;
-          <span class="featureEventDateIs">${start.datetime}</span>&nbsp;
-          <span class="featureEventTimeIs">19:00</span>
-        </li>
-        <li  class="featureEventPlace">
-          <i class="far fa-map-marker"></i>&nbsp;
-          <span class="featureEventPlaceIs">${location}</span>
-        </li>
-        <li class="featureEventFee">
-          <i class="far fa-usd-circle"></i>&nbsp;
-          <span class="featureEventFeeIs">NTD 1,000</span>
-        </li>
-      </ul>
+    <h4 class="featureEventName">
+      ${summary}
+    </h4>
+    <p class="featureEventContent">
+      ${description}
+    </p>
+    <ul class="featureEventMeta">
+      <li class="featureEventWhen">
+        <i class="far fa-calendar"></i>&nbsp;
+        <span class="featureEventDateIs">${start.datetime}</span>&nbsp;
+        <span class="featureEventTimeIs">19:00</span>
+      </li>
+      <li  class="featureEventPlace">
+        <i class="far fa-map-marker"></i>&nbsp;
+        <span class="featureEventPlaceIs">${location}</span>
+      </li>
+      <li class="featureEventFee">
+        <i class="far fa-usd-circle"></i>&nbsp;
+        <span class="featureEventFeeIs">NTD 1,000</span>
+      </li>
+    </ul>
   </script>
 
   <!-- Sugg Event-->
   <script type="text/x-jquery-tmpl" id="template_sugg">
-  <li class="allEventListItem">
-          <h6 class="allEventItemName">${summary}</h6>
-          <p class="allEventItemContent"> ${description}</p>
-          <ul class="allEventItemMeta">
-            <li class="allEventItemWhen">
-              <i class="fal fa-calendar"></i>&nbsp;
-              <span class="allEventItemTimeIs">${start.datetime}</span>&nbsp;
-              <span class="allEventItemDateIs">19:30</span>
-            </li>
-            <li class="allEventPlace">
-              <i class="fal fa-map-marker"></i>&nbsp;
-              <span class="allEventItemPlaceIs">${location}</span>
-            </li>
-            <li class="AllEventItemFee">
-              <i class="fal fa-usd-circle"></i>&nbsp;
-              <span class="AllEventItemFeeIs">NTD 50,000</span>
-            </li>
-          </ul>
+    <li class="allEventListItem">
+      <h6 class="allEventItemName">${summary}</h6>
+      <p class="allEventItemContent"> ${description}</p>
+      <ul class="allEventItemMeta">
+        <li class="allEventItemWhen">
+          <i class="fal fa-calendar"></i>&nbsp;
+          <span class="allEventItemTimeIs">${start.datetime}</span>&nbsp;
+          <span class="allEventItemDateIs">19:30</span>
         </li>
+        <li class="allEventPlace">
+          <i class="fal fa-map-marker"></i>&nbsp;
+          <span class="allEventItemPlaceIs">${location}</span>
+        </li>
+        <li class="AllEventItemFee">
+          <i class="fal fa-usd-circle"></i>&nbsp;
+          <span class="AllEventItemFeeIs">NTD 50,000</span>
+        </li>
+      </ul>
+    </li>
   </script>
   
   <script src="js/source/app.js"></script>
