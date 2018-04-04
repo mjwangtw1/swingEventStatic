@@ -1,0 +1,17 @@
+.mentionEventsTitle {
+  color: mix($isabelline, $spacecadet, 60%);
+}
+
+.mentionEventName {
+  font-weight: 700;
+}
+
+.mentionEventContent {
+  color: $isabelline;
+  font-family: 'Spectral', 'Noto Sans TC', 'Source Han Serif TC', '思源宋體', serif;
+  font-weight: 500;
+
+  @include breakpoint(medium) {
+    color: $gunmetal;
+  }
+}
