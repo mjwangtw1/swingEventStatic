@@ -1,8 +1,18 @@
 .allEventTitle {
   margin-top: 15px;
-  color: $slategray;
+  color: mix($isabelline, $spacecadet, 60%);
 }
 
-.allEventItemTitle {
+.allEventItemName {
   font-weight: 700;
+}
+
+.allEventItemContent {
+  color: $gunmetal;
+  font-family: 'Spectral', 'Noto Sans TC', 'Source Han Serif TC', '思源宋體', serif;
+  font-weight: 500;
+}
+
+.allEventItemMeta {
+  margin-left: 0;
 }

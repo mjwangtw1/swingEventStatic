@@ -15,7 +15,7 @@
   color: $gunmetal;
 }
 
-.featureEventTime
+.featureEventWhen
 {
   @extend %featureEventMetaTitle;
 }
@@ -25,12 +25,26 @@
   @extend %featureEventMetaTitle;
 }
 
+.featureEventFee
+{
+  @extend %featureEventMetaTitle;
+}
+
+.featureEventDateIs {
+  @extend %featureEventMetaValue;
+}
+
 .featureEventTimeIs
 {
   @extend %featureEventMetaValue;
 }
 
 .featureEventPlaceIs
+{
+  @extend %featureEventMetaValue;
+}
+
+.featureEventFeeIs
 {
   @extend %featureEventMetaValue;
 }
