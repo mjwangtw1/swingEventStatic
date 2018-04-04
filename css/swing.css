@@ -1,8 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Heebo:400,700");
 @import url("https://fonts.googleapis.com/css?family=Noto+Serif:400,700");
-@import url("https://fonts.googleapis.com/css?family=Delius");
-@import url("https://fonts.googleapis.com/css?family=Sriracha");
+@import url("https://fonts.googleapis.com/css?family=Racing+Sans+One");
 /**
  * Foundation for Sites by ZURB
  * Version 6.4.3
@@ -1508,7 +1507,7 @@ ul.no-bullet, ol.no-bullet {
 .swingTitleName {
   text-align: center;
   color: #151e3f;
-  font-family: 'Delius', sans-serif;
+  font-family: 'Racing Sans One', sans-serif;
   font-size: 2.75rem; }
   @media print, screen and (min-width: 40em) {
     .swingTitleName {
@@ -1574,6 +1573,9 @@ ul.no-bullet, ol.no-bullet {
 .swingTitleName {
   margin-top: 12px;
   line-height: 1.2; }
+
+.swingTitlePlace {
+  color: #f05d5e; }
 
 .swingSidebar {
   padding-top: 10px;
